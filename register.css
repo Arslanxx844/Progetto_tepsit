@@ -1,0 +1,117 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+	width: 100%;
+
+}
+.main{
+
+	width: 30%;
+
+	overflow: hidden;
+	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+	display: flex;
+	margin: auto;
+	margin-top: 8rem;
+	padding-bottom: 1rem ;
+	padding-top: 1rem;
+}
+
+.prima_parte{
+	display: flex;
+	flex-direction: column;
+	padding-left: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-right: 2rem;
+	margin: auto;
+	width: 50%;
+}
+
+header{
+	text-align: center;
+	color: white;
+	padding-top: 3rem;
+}
+
+label{
+	color: white;
+}
+
+input{
+	padding:0.3rem 0.3rem 0.3rem 0.3rem;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+	border-radius: 1rem;
+	background: #e0dede;
+	width: 90%;
+}
+
+.select_tipo_utente{
+	padding:0.3rem 0.3rem 0.3rem 0.3rem;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+	border-radius: 1rem;
+	background: #e0dede;
+	width: 100%;
+	
+}
+
+
+
+.div_button{
+	width: 25%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	padding-top: 2	rem;
+}
+
+
+.form{
+	
+	margin-top: 2rem;
+
+}
+
+
+.btn{
+	border-radius: 1rem;
+	background-color: white;
+	margin: 0.5rem 0.5rem 0.5rem  0.5rem;
+    transition: all 0.5s ease-out;
+	padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+
+
+.btn:hover{
+    background-color: rgb(133, 0, 0);
+    color: rgb(209, 179, 179);
+    cursor: pointer;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+	.main{	
+		flex-direction: column;
+		
+	}
+	
+	.prima_parte{
+
+		padding-left: 2rem;
+		padding-top: 1rem;
+		padding-bottom: 0.5rem;
+		padding-right: 2rem;
+	}
+
+  }
